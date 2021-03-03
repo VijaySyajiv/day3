@@ -40,9 +40,11 @@ public class ExceptionEx {
             obj.atm(amount);
            
         }
-        
+        catch(Exception e) {
+        	System.out.println(e);
+        }
         finally{
-            System.out.println("Thank You For lBanking With Us ");
+            System.out.println("Thank You For Banking With Us ");
             System.out.println("WAITING  FOR YOUR VISIT AGAIN");
         }
     }
